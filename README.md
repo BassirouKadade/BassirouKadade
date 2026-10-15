@@ -1,4 +1,4 @@
-<h1 align="center">Bassirou KADADE MAHAMADOU</h1>
+<h1 align="center">KADADE MAHAMADOU Bassirou</h1>
 
 <p align="center">
   <b>Master 2 Systèmes d'Information et Systèmes Intelligents · INSEA Rabat</b><br>

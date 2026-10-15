@@ -21,53 +21,54 @@ Mon objectif est de me spécialiser en **science des données** et de mettre l'I
 
 ### Recherche en cours
 
-**Co-clustering de corpus textuels en haoussa pour la découverte non supervisée de thématiques en contexte de langue peu dotée** (oct. 2026 – janv. 2027)
-- Données : MasakhaNEWS haoussa (3 173 articles, 7 thèmes) et Hausa VOA Topics (2 917 titres, 5 thèmes)
-- Méthodes : six familles de co-clustering implémentées à partir de leurs fondements (EM, CEM), comparées à K-means, NMF, LDA et AfroXLMR ; évaluation par NMI, ARI et cohérence
+<table>
+<tr><td>
+
+**Co-clustering de corpus textuels en haoussa pour la découverte non supervisée de thématiques en contexte de langue peu dotée**
+<br><sub>Octobre 2026 à janvier 2027 · Apprentissage non supervisé · Modèles de blocs latents · TAL des langues peu dotées</sub>
+
+Le haoussa, langue véhiculaire du Niger, du nord du Nigeria et d'une large partie de l'Afrique de l'Ouest, est parlé par plusieurs dizaines de millions de personnes. Il reste pourtant une langue peu dotée : les corpus annotés y sont rares, et la plupart des travaux qui le concernent relèvent de l'apprentissage supervisé. Ce projet explore une autre voie. Le co-clustering partitionne simultanément les documents et les mots. Il associe ainsi à chaque groupe d'articles le vocabulaire qui le caractérise, et fait émerger les thèmes d'un corpus sans aucune étiquette.
+
+L'étude compare de manière contrôlée six familles de co-clustering, que j'implémente à partir de leurs fondements (algorithmes EM et CEM), à des méthodes qui ne classent que les documents : K-means, NMF, LDA et le regroupement de représentations issues d'AfroXLMR. Elle examine ensuite si l'intégration de similarités sémantiques entre mots, apprises par un modèle de langue conçu pour les langues africaines, compense la parcimonie des données. Les expériences portent sur deux corpus publics aux textes de longueurs très différentes : les 3 173 articles de MasakhaNEWS en haoussa (7 thèmes) et les 2 917 titres de Hausa VOA Topics (5 thèmes). L'évaluation mesure la fidélité des partitions (NMI, ARI) et la cohérence des groupes de mots. Le code et le protocole seront publiés pour pouvoir être appliqués aux autres langues africaines.
+
+</td></tr>
+</table>
 
 ### Réalisations
 
-| Projet | Description | Technologies |
-|---|---|---|
-| **Fiscalia** · CGP Niger (en cours) | Assistant fiscal fondé sur l'IA générative, pour des réponses sourcées et traçables | LLM, RAG, embeddings, API REST |
-| **Horowa** · CGP Niger | Module d'IA générative qui crée des quiz et des questions-réponses pour une plateforme e-learning | LLM, prompt engineering, NLP |
-| **[StationPro](https://stationpro.app)** · Station Africa | Plateforme SaaS de gestion de stations-service en temps réel (console web et application Android), conçue de bout en bout | Next.js, React Native (Expo), WebSocket |
-| **AfriProf School Admin** · Yanvision | Plateforme d'administration scolaire, développée en équipe | Vue.js (Quasar, Pinia), API REST |
-| **[MyTopic](https://github.com/BassirouKadade/mytopic_backend)** | Génération automatique de présentations à partir d'un sujet | Django REST, OpenAI SDK, React, TypeScript |
-| **[Shagona](https://bassiroukadade.github.io/shagona-app/)** | Application Android de carnet de crédits pour les boutiques | React Native (Expo) |
+| Projet | Cadre | Ce que j'ai réalisé | Technologies | Accès |
+|:--|:--|:--|:--|:--|
+| **Fiscalia** | Mission pour CGP Niger, 2026 à 2027 | Assistant fiscal fondé sur l'IA générative, qui produit des réponses sourcées et traçables à partir des textes fiscaux | LLM, RAG, embeddings, API sécurisée | Projet client |
+| **NigerTax** | Mission pour CGP Niger, 2026 à 2027 | Plateforme fiscale en ligne, avec gestion des abonnements et des paiements | API REST, sécurité applicative | Projet client |
+| **Horowa** | Stage en IA chez CGP Niger, 2026 | Module d'IA générative qui crée automatiquement des quiz et des questions-réponses pour la plateforme e-learning | LLM, prompt engineering, NLP | [horowa.net](https://horowa.net) |
+| **StationPro** | Mission pour Station Africa, 2026 | Plateforme SaaS conçue de bout en bout pour gérer en temps réel le carburant, la boutique, la caisse et les crédits des stations-service, avec un journal d'audit complet | Next.js, React Native (Expo), WebSocket | [stationpro.app](https://stationpro.app) |
+| **AfriProf School Admin** | Stage Full Stack chez Yanvision, 2025 | Plateforme d'administration scolaire, développée au sein d'une équipe | Vue.js (Quasar, Pinia), API REST | Projet d'entreprise |
+| **Garden Paradise** | Stage chez ELKR Works, 2024 | Site de la résidence Garden Paradise à Bouznika, avec des pages responsives et une visite virtuelle à 360° | WordPress | [gardenparadise.ma](https://gardenparadise.ma) |
+| **MyTopic** | Projet personnel | Génération automatique de présentations structurées à partir d'un simple sujet | Django REST, OpenAI API, React, TypeScript | [Code source](https://github.com/BassirouKadade/mytopic_backend) |
+| **Shagona** | Projet personnel | Application Android de carnet de crédits destinée aux boutiques | React Native (Expo) | [Télécharger](https://bassiroukadade.github.io/shagona-app/) |
 
 ### Compétences
 
-**IA et données** : machine learning, deep learning, IA générative (LLM, RAG, embeddings), NLP, vision par ordinateur, statistiques, SQL, data warehouse, Apache Airflow
-
-**Développement** : Python, JavaScript / TypeScript, Java (Spring Boot), React, Next.js, Vue.js, React Native, Django, API REST
-
-**Architecture et méthodes** : microservices, conteneurisation, cloud native, Git, Agile et DevOps, UML
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native">
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Apache Airflow">
+<p align="center">
+  <img src="assets/competences.svg" alt="Graphe des compétences en intelligence artificielle et en ingénierie logicielle" width="100%">
 </p>
+
+Côté **intelligence artificielle**, je conçois des solutions d'IA générative complètes. Je construis des chaînes RAG fondées sur des embeddings, je développe des agents IA, j'automatise des workflows et j'industrialise des pipelines de données avec Apache Airflow. Ces solutions reposent sur une base solide en machine learning, deep learning et traitement automatique du langage.
+Côté **ingénierie logicielle**, je livre des applications web et mobiles en production. J'y mets en place des API REST, des communications en temps réel et des architectures SaaS et microservices, en TypeScript, Python et Java.
 
 ### Distinctions et certification
 
-- Bourse d'excellence de l'**ICESCO** (2025 – 2027) et bourse d'excellence de l'**AMCI** (2022 – 2024)
-- Major de promotion, Technicien spécialisé Full Stack, ISTA Bouznika / OFPPT (2024)
-- Prix d'excellence et de mérite de la **Fondation NOUR** (2022)
-- **NVIDIA** Deep Learning Institute : *Fundamentals of Deep Learning* (2025)
+| Distinction | Organisme | Année |
+|:--|:--|:--|
+| **Bourse d'excellence** | ICESCO | 2025 à 2027 |
+| **Bourse d'excellence** | AMCI, Agence Marocaine de Coopération Internationale | 2022 à 2024 |
+| **Prix d'excellence et de mérite**, meilleur bachelier en informatique de la région de Niamey | Fondation NOUR | 2022 |
+| **Certification** *Fundamentals of Deep Learning* | NVIDIA Deep Learning Institute | 2025 |
 
 ### Engagement
 
-Fondateur d'**AB LOGIC**, startup de services numériques (développement d'applications, automatisation, agents d'IA, analyse de données) · Secrétaire général de l'ANEM-Rabat (2025 – 2026) · Membre de l'équipe technique du Club des Étudiants Internationaux de l'INSEA
+Je suis le fondateur d'**AB LOGIC**, une startup de services numériques spécialisée dans le développement d'applications, l'automatisation des workflows, les agents d'IA et l'analyse de données. En parallèle, j'ai été secrétaire général de l'**ANEM-Rabat** (2025 à 2026), où j'ai accueilli et orienté les nouveaux étudiants nigériens. Je suis aussi membre de l'équipe technique du **Club des Étudiants Internationaux** de l'INSEA.
 
 ---
 
-<p align="center"><i>Français · English · العربية</i></p>
+<p align="center"><sub>Français · English · العربية</sub></p>

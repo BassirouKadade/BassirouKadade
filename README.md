@@ -15,7 +15,7 @@
 
 ### À propos
 
-Étudiant nigérien en Master 2 à l'**INSEA** (Rabat), major de promotion du M1 et **boursier d'excellence de l'ICESCO**.
+Étudiant nigérien en Master 2 à l'**INSEA** (Rabat) et **boursier d'excellence de l'ICESCO**.
 Je conçois des systèmes fiables, de la donnée au produit : modèles d'apprentissage automatique, IA générative et applications web et mobiles en production.
 Mon objectif est de me spécialiser en **science des données** et de mettre l'IA au service des langues et des données africaines.
 

@@ -50,11 +50,12 @@ L'étude compare de manière contrôlée six familles de co-clustering, que j'im
 ### Compétences
 
 <p align="center">
-  <img src="assets/competences.svg" alt="Graphe des compétences en intelligence artificielle et en ingénierie logicielle" width="100%">
+  <img src="assets/competences.svg" alt="Graphe animé des compétences : intelligence artificielle, données et ingénierie logicielle" width="100%">
 </p>
 
-Côté **intelligence artificielle**, je conçois des solutions d'IA générative complètes. Je construis des chaînes RAG fondées sur des embeddings, je développe des agents IA, j'automatise des workflows et j'industrialise des pipelines de données avec Apache Airflow. Ces solutions reposent sur une base solide en machine learning, deep learning et traitement automatique du langage.
-Côté **ingénierie logicielle**, je livre des applications web et mobiles en production. J'y mets en place des API REST, des communications en temps réel et des architectures SaaS et microservices, en TypeScript, Python et Java.
+En **intelligence artificielle**, je maîtrise toute la chaîne de valeur. Elle va de l'apprentissage automatique et du deep learning au traitement du langage et aux grands modèles de langage, puis à l'IA générative avec RAG, aux agents et aux workflows automatisés, jusqu'à la mise en production et au suivi des modèles.
+En **ingénierie logicielle**, je livre des applications web et mobiles complètes, des API en temps réel et des architectures SaaS déployées dans le cloud.
+Les **données** font le lien entre ces deux mondes. Je les stocke, les transforme et les analyse pour qu'elles alimentent les modèles, et que les modèles enrichissent à leur tour les produits.
 
 ### Distinctions et certification
 
